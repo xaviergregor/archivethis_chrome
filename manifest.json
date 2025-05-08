@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Archiver sur archive.is",
+  "version": "1.0",
+  "description": "Ouvre l'URL actuelle sur archive.is",
+  "permissions": ["tabs"],
+  "action": {
+    "default_title": "Archiver cette page",
+    "default_icon": {
+      "48": "icon.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icon.png"
+  }
+}
+
